@@ -4,7 +4,8 @@ It automatically extracts product information, the latest reviews, ratings, etc,
 then exports the collected data into an Excel file for easy analysis and organization.
  
 *Before running the script, please update your AMAZON_EMAIL and AMAZON_PASSWORD in amazon_comment.py, and ensure your account has permission to view all product reviews.
- 
+*Ensure that the execution frequency is not too high to avoid encountering reCAPTCHA verification.
+
 ## | **Features**<br>
  
 1. Automatically opens each product page on Amazon<br>
@@ -39,7 +40,8 @@ Please paste the Amazon products link of the business you want to scrape reviews
 並將結果輸出為 Excel 檔案，方便後續分析與整理。<br>
  
 *執行前請至 amazon_comment.py 更改您的 AMAZON_EMAIL & AMAZON_PASSWORD，確認您的帳號已被允許瀏覽商品所有評論
- 
+*確保執行頻率不要過於頻繁，避免遇到 reCAPTCHA 驗證
+
 ## | **功能特色**<br>
  
 1. 自動開啟 Amazon 各產品頁面<br>
